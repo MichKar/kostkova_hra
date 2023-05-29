@@ -1,0 +1,162 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(img/pozadi.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 45px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 80%;
+    margin-left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.playground {
+    background-color: rgba(255, 255, 255, 0.78);
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.playground {
+    text-decoration: none;
+    color: black;
+    font-weight: 670;
+    font-family:sans-serif;
+
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+.btn1{
+    background-color: #247c8d;
+    left: 15%;
+    top: 220px;
+}
+
+.btn2{
+    background-color: #247c8d;
+    right: 15%;
+    top: 220px;
+}
+
+.btn3{
+    background-color: #fff;
+    left: 15%;
+    top: 350px;
+}
+
+.btn4{
+    background-color: #fff;
+    right: 15%;
+    top: 350px;
+}
+
+.btn5, .btn6, .btn7 {
+    height: 30px;
+    padding-top: 10px;
+    background-color: #88f757;
+    width: 150px;
+    border: 2px solid #88f757;
+    box-shadow: 5px 5px #676767;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+}
+
+.btn5{
+    top: 600px;
+}
+
+.btn6{
+    top: 650px;
+}
+
+.btn7{
+    top: 700px;
+}
+
+.btn5:hover, .btn6:hover, .btn7:hover,
+.btn5:active, .btn6:active, .btn7:active {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 2px 2px #646464;
+    background-color: #7da26c;
+    border: 2px solid #7da26c;
+}
+
+.btn5:hover,
+.btn5:active {
+    top: 603px;
+}
+
+.btn6:hover,
+.btn6:active {
+    top: 653px;
+}
+
+.btn7:hover,
+.btn7:active {
+    top: 703px;
+}
+
+
+/*KOSTKA*/
+.dice {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+    border-radius: 30px;
+    box-shadow: 4px 4px rgba(124, 124, 124, 0.62);
+}
+
+.diceImage {
+    width: 100%;
+
+}
+
+
+
+/*TOTAL SCORE*/
+
+.totalScore {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/*ACTUAL SCORE*/
+
+.actualScore {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+/*ACTIVE - AKTIVNÍ HRÁČ*/
+
+.active {
+    background-color: #32cbe8;
+}
