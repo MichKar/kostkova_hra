@@ -12,7 +12,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     width: 80%;
-    margin-left:50%;
+    margin-left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 80px;
@@ -33,9 +33,9 @@ h1 {
     text-decoration: none;
     color: black;
     font-weight: 670;
-    font-family:sans-serif;
-
+    font-family: sans-serif;
 }
+
 .btn {
     width: 100px;
     height: 100px;
@@ -46,25 +46,25 @@ h1 {
     border-radius: 15px;
 }
 
-.btn1{
+.btn1 {
     background-color: #247c8d;
     left: 15%;
     top: 220px;
 }
 
-.btn2{
+.btn2 {
     background-color: #247c8d;
     right: 15%;
     top: 220px;
 }
 
-.btn3{
+.btn3 {
     background-color: #fff;
     left: 15%;
     top: 350px;
 }
 
-.btn4{
+.btn4 {
     background-color: #fff;
     right: 15%;
     top: 350px;
@@ -82,20 +82,19 @@ h1 {
     user-select: none;
 }
 
-.btn5{
+.btn5 {
     top: 600px;
 }
 
-.btn6{
+.btn6 {
     top: 650px;
 }
 
-.btn7{
+.btn7 {
     top: 700px;
 }
 
-.btn5:hover, .btn6:hover, .btn7:hover,
-.btn5:active, .btn6:active, .btn7:active {
+.btn5:hover, .btn6:hover, .btn7:hover, .btn5:active, .btn6:active, .btn7:active {
     cursor: pointer;
     transition: 0.5s;
     box-shadow: 2px 2px #646464;
@@ -103,23 +102,19 @@ h1 {
     border: 2px solid #7da26c;
 }
 
-.btn5:hover,
-.btn5:active {
+.btn5:hover, .btn5:active {
     top: 603px;
 }
 
-.btn6:hover,
-.btn6:active {
+.btn6:hover, .btn6:active {
     top: 653px;
 }
 
-.btn7:hover,
-.btn7:active {
+.btn7:hover, .btn7:active {
     top: 703px;
 }
 
-
-/*KOSTKA*/
+/*DICE*/
 .dice {
     width: 150px;
     height: 150px;
@@ -134,29 +129,22 @@ h1 {
 
 .diceImage {
     width: 100%;
-
 }
 
-
-
 /*TOTAL SCORE*/
-
 .totalScore {
     font-weight: bold;
     font-size: 50px;
 }
 
 /*ACTUAL SCORE*/
-
 .actualScore {
     font-weight: bold;
     font-size: 30px;
     margin-top: 10px;
 }
 
-
-/*ACTIVE - AKTIVNÍ HRÁČ*/
-
+/*ACTIVE PLAYER*/
 .active {
     background-color: #32cbe8;
 }
